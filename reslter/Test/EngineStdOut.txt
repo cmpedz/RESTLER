@@ -1,0 +1,6 @@
+Grammar schema file 'D:\test_server(test)\grammar.json' does not exist.
+2025-05-10 22:34:04.193: Initializing: Garbage collection every 30 seconds.
+2025-05-10 22:34:04.212: Generation: 1 
+2025-05-10 22:34:15.160: Generation: 2 
+2025-05-10 22:34:30.133: Terminating garbage collection. Waiting for max 300 seconds. 
+Done.

@@ -1,0 +1,56 @@
+2025-05-10 22:34:30.143: Sending: 'DELETE /vipitems/4921 HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:8080\r\n_OMITTED_AUTH_TOKEN_\r\nContent-Length: 0\r\nUser-Agent: restler/9.3.1\r\n\r\n'
+
+2025-05-10 22:34:30.412: Received: 'HTTP/1.1 404 Not Found\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAcces-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\nAccess-Control-Allow-Headers: Content-Type, Authorization\r\nContent-Type: application/json; charset=utf-8\r\nContent-Length: 28\r\nETag: W/"1c-OqRAEHB09m693LkZpvKoMUaiB2s"\r\nDate: Sat, 10 May 2025 15:34:30 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n{"message":"Item not found"}'
+
+2025-05-10 22:34:30.427: Sending: 'DELETE /vipitems/4919 HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:8080\r\n_OMITTED_AUTH_TOKEN_\r\nContent-Length: 0\r\nUser-Agent: restler/9.3.1\r\n\r\n'
+
+2025-05-10 22:34:30.922: Received: 'HTTP/1.1 200 OK\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAcces-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\nAccess-Control-Allow-Headers: Content-Type, Authorization\r\nContent-Type: application/json; charset=utf-8\r\nDate: Sat, 10 May 2025 15:34:30 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\nContent-Length: 0\r\n\r\n'
+
+2025-05-10 22:34:30.930: Sending: 'DELETE /vipitems/4918 HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:8080\r\n_OMITTED_AUTH_TOKEN_\r\nContent-Length: 0\r\nUser-Agent: restler/9.3.1\r\n\r\n'
+
+2025-05-10 22:34:31.517: Received: 'HTTP/1.1 200 OK\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAcces-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\nAccess-Control-Allow-Headers: Content-Type, Authorization\r\nContent-Type: application/json; charset=utf-8\r\nDate: Sat, 10 May 2025 15:34:31 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\nContent-Length: 0\r\n\r\n'
+
+2025-05-10 22:34:31.533: Sending: 'DELETE /vipitems/4911 HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:8080\r\n_OMITTED_AUTH_TOKEN_\r\nContent-Length: 0\r\nUser-Agent: restler/9.3.1\r\n\r\n'
+
+2025-05-10 22:34:32.050: Received: 'HTTP/1.1 200 OK\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAcces-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\nAccess-Control-Allow-Headers: Content-Type, Authorization\r\nContent-Type: application/json; charset=utf-8\r\nDate: Sat, 10 May 2025 15:34:32 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\nContent-Length: 0\r\n\r\n'
+
+2025-05-10 22:34:32.075: Sending: 'DELETE /users/30274 HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:8080\r\n_OMITTED_AUTH_TOKEN_\r\nContent-Length: 0\r\nUser-Agent: restler/9.3.1\r\n\r\n'
+
+2025-05-10 22:34:32.585: Received: 'HTTP/1.1 200 OK\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAcces-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\nAccess-Control-Allow-Headers: Content-Type, Authorization\r\nContent-Type: application/json; charset=utf-8\r\nDate: Sat, 10 May 2025 15:34:32 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\nContent-Length: 0\r\n\r\n'
+
+2025-05-10 22:34:32.601: Sending: 'DELETE /users/30274 HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:8080\r\n_OMITTED_AUTH_TOKEN_\r\nContent-Length: 0\r\nUser-Agent: restler/9.3.1\r\n\r\n'
+
+2025-05-10 22:34:32.852: Received: 'HTTP/1.1 404 Not Found\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAcces-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\nAccess-Control-Allow-Headers: Content-Type, Authorization\r\nContent-Type: application/json; charset=utf-8\r\nContent-Length: 28\r\nETag: W/"1c-ZEVVcvtFhxKX/QUvVKqKxwGbbNA"\r\nDate: Sat, 10 May 2025 15:34:32 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n{"message":"User not found"}'
+
+2025-05-10 22:34:32.863: Sending: 'DELETE /users/30274 HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:8080\r\n_OMITTED_AUTH_TOKEN_\r\nContent-Length: 0\r\nUser-Agent: restler/9.3.1\r\n\r\n'
+
+2025-05-10 22:34:33.118: Received: 'HTTP/1.1 404 Not Found\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAcces-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\nAccess-Control-Allow-Headers: Content-Type, Authorization\r\nContent-Type: application/json; charset=utf-8\r\nContent-Length: 28\r\nETag: W/"1c-ZEVVcvtFhxKX/QUvVKqKxwGbbNA"\r\nDate: Sat, 10 May 2025 15:34:33 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n{"message":"User not found"}'
+
+2025-05-10 22:34:33.131: Sending: 'DELETE /users/30274 HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:8080\r\n_OMITTED_AUTH_TOKEN_\r\nContent-Length: 0\r\nUser-Agent: restler/9.3.1\r\n\r\n'
+
+2025-05-10 22:34:33.382: Received: 'HTTP/1.1 404 Not Found\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAcces-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\nAccess-Control-Allow-Headers: Content-Type, Authorization\r\nContent-Type: application/json; charset=utf-8\r\nContent-Length: 28\r\nETag: W/"1c-ZEVVcvtFhxKX/QUvVKqKxwGbbNA"\r\nDate: Sat, 10 May 2025 15:34:33 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n{"message":"User not found"}'
+
+2025-05-10 22:34:33.398: Sending: 'DELETE /users/30269 HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:8080\r\n_OMITTED_AUTH_TOKEN_\r\nContent-Length: 0\r\nUser-Agent: restler/9.3.1\r\n\r\n'
+
+2025-05-10 22:34:33.667: Received: 'HTTP/1.1 404 Not Found\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAcces-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\nAccess-Control-Allow-Headers: Content-Type, Authorization\r\nContent-Type: application/json; charset=utf-8\r\nContent-Length: 28\r\nETag: W/"1c-ZEVVcvtFhxKX/QUvVKqKxwGbbNA"\r\nDate: Sat, 10 May 2025 15:34:33 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n{"message":"User not found"}'
+
+2025-05-10 22:34:33.681: Sending: 'DELETE /users/30269 HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:8080\r\n_OMITTED_AUTH_TOKEN_\r\nContent-Length: 0\r\nUser-Agent: restler/9.3.1\r\n\r\n'
+
+2025-05-10 22:34:33.934: Received: 'HTTP/1.1 404 Not Found\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAcces-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\nAccess-Control-Allow-Headers: Content-Type, Authorization\r\nContent-Type: application/json; charset=utf-8\r\nContent-Length: 28\r\nETag: W/"1c-ZEVVcvtFhxKX/QUvVKqKxwGbbNA"\r\nDate: Sat, 10 May 2025 15:34:33 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n{"message":"User not found"}'
+
+2025-05-10 22:34:33.962: Sending: 'DELETE /items/5144 HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:8080\r\n_OMITTED_AUTH_TOKEN_\r\nContent-Length: 0\r\nUser-Agent: restler/9.3.1\r\n\r\n'
+
+2025-05-10 22:34:34.466: Received: 'HTTP/1.1 200 OK\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAcces-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\nAccess-Control-Allow-Headers: Content-Type, Authorization\r\nContent-Type: application/json; charset=utf-8\r\nDate: Sat, 10 May 2025 15:34:34 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\nContent-Length: 0\r\n\r\n'
+
+2025-05-10 22:34:34.482: Sending: 'DELETE /items/5142 HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:8080\r\n_OMITTED_AUTH_TOKEN_\r\nContent-Length: 0\r\nUser-Agent: restler/9.3.1\r\n\r\n'
+
+2025-05-10 22:34:34.984: Received: 'HTTP/1.1 200 OK\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAcces-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\nAccess-Control-Allow-Headers: Content-Type, Authorization\r\nContent-Type: application/json; charset=utf-8\r\nDate: Sat, 10 May 2025 15:34:34 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\nContent-Length: 0\r\n\r\n'
+
+2025-05-10 22:34:34.994: Sending: 'DELETE /items/5141 HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:8080\r\n_OMITTED_AUTH_TOKEN_\r\nContent-Length: 0\r\nUser-Agent: restler/9.3.1\r\n\r\n'
+
+2025-05-10 22:34:35.255: Received: 'HTTP/1.1 404 Not Found\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAcces-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\nAccess-Control-Allow-Headers: Content-Type, Authorization\r\nContent-Type: application/json; charset=utf-8\r\nContent-Length: 28\r\nETag: W/"1c-OqRAEHB09m693LkZpvKoMUaiB2s"\r\nDate: Sat, 10 May 2025 15:34:35 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n{"message":"Item not found"}'
+
+2025-05-10 22:34:35.270: Sending: 'DELETE /items/5135 HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:8080\r\n_OMITTED_AUTH_TOKEN_\r\nContent-Length: 0\r\nUser-Agent: restler/9.3.1\r\n\r\n'
+
+2025-05-10 22:34:35.775: Received: 'HTTP/1.1 200 OK\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAcces-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\nAccess-Control-Allow-Headers: Content-Type, Authorization\r\nContent-Type: application/json; charset=utf-8\r\nDate: Sat, 10 May 2025 15:34:35 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\nContent-Length: 0\r\n\r\n'
+

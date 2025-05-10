@@ -1,0 +1,124 @@
+This file contains the failing requests, ordered by the number of blocked dependent requests.
+To improve coverage, fix the failing requests in the order listed in this file.
+
+Note: some requests are labeled as 'sequence failure'.
+This means the request depends on another request that is failing intermittently.
+For example, a DELETE request for a resource may be skipped because the resource
+PUT request failed due to exceeding quota.  The same PUT request succeeded earlier (and may
+succeed later depending on the resource clean-up behavior in the service), so it is
+considered an intermittent failure.
+
+-----------------------------------------------
+Request: Post /vipitems
+Number of blocked dependent requests: 3
+
+	+++ Combination 1 +++:
+	Request sequence: 
+	> POST /vipitems HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:8080\r\nContent-Type: application/json\r\nAUTHORIZATION TOKEN\r\n\r\n{\n    "name":"item3",\n    "description":"nothing to say",\n    "img":"???"}\r\n
+	< HTTP/1.1 403 Forbidden\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAcces-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\nAccess-Control-Allow-Headers: Content-Type, Authorization\r\nContent-Type: application/json; charset=utf-8\r\nContent-Length: 42\r\nETag: W/"2a-2HTn7E8jtg7Nrlf1fxTjhPRvceg"\r\nDate: Sat, 10 May 2025 15:19:45 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n{"message":"Forbidden: Insufficient role"}
+
+
+	+++ Combination 2 +++:
+	Request sequence: 
+	> POST /vipitems HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:8080\r\nContent-Type: application/json\r\nAUTHORIZATION TOKEN\r\n\r\n{\n    "name":"item3",\n    "description":"nothing to say",\n    "img":"666"}\r\n
+	< HTTP/1.1 403 Forbidden\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAcces-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\nAccess-Control-Allow-Headers: Content-Type, Authorization\r\nContent-Type: application/json; charset=utf-8\r\nContent-Length: 42\r\nETag: W/"2a-2HTn7E8jtg7Nrlf1fxTjhPRvceg"\r\nDate: Sat, 10 May 2025 15:19:45 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n{"message":"Forbidden: Insufficient role"}
+
+
+	+++ Combination 3 +++:
+	Request sequence: 
+	> POST /vipitems HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:8080\r\nContent-Type: application/json\r\nAUTHORIZATION TOKEN\r\n\r\n{\n    "name":"item3",\n    "description":"update informations",\n    "img":"???"}\r\n
+	< HTTP/1.1 403 Forbidden\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAcces-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\nAccess-Control-Allow-Headers: Content-Type, Authorization\r\nContent-Type: application/json; charset=utf-8\r\nContent-Length: 42\r\nETag: W/"2a-2HTn7E8jtg7Nrlf1fxTjhPRvceg"\r\nDate: Sat, 10 May 2025 15:19:45 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n{"message":"Forbidden: Insufficient role"}
+
+
+	+++ Combination 4 +++:
+	Request sequence: 
+	> POST /vipitems HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:8080\r\nContent-Type: application/json\r\nAUTHORIZATION TOKEN\r\n\r\n{\n    "name":"item3",\n    "description":"update informations",\n    "img":"666"}\r\n
+	< HTTP/1.1 403 Forbidden\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAcces-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\nAccess-Control-Allow-Headers: Content-Type, Authorization\r\nContent-Type: application/json; charset=utf-8\r\nContent-Length: 42\r\nETag: W/"2a-2HTn7E8jtg7Nrlf1fxTjhPRvceg"\r\nDate: Sat, 10 May 2025 15:19:46 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n{"message":"Forbidden: Insufficient role"}
+
+
+	+++ Combination 5 +++:
+	Request sequence: 
+	> POST /vipitems HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:8080\r\nContent-Type: application/json\r\nAUTHORIZATION TOKEN\r\n\r\n{\n    "name":"item3_test",\n    "description":"nothing to say",\n    "img":"???"}\r\n
+	< HTTP/1.1 403 Forbidden\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAcces-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\nAccess-Control-Allow-Headers: Content-Type, Authorization\r\nContent-Type: application/json; charset=utf-8\r\nContent-Length: 42\r\nETag: W/"2a-2HTn7E8jtg7Nrlf1fxTjhPRvceg"\r\nDate: Sat, 10 May 2025 15:19:46 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n{"message":"Forbidden: Insufficient role"}
+
+
+-----------------------------------------------
+Request: Get /users/random
+Number of blocked dependent requests: 3
+
+	+++ Combination 1 +++:
+	Request sequence: 
+	> GET /users/random HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:8080\r\nAUTHORIZATION TOKEN\r\n\r\n
+	< HTTP/1.1 403 Forbidden\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAcces-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\nAccess-Control-Allow-Headers: Content-Type, Authorization\r\nContent-Type: application/json; charset=utf-8\r\nContent-Length: 42\r\nETag: W/"2a-2HTn7E8jtg7Nrlf1fxTjhPRvceg"\r\nDate: Sat, 10 May 2025 15:19:49 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n{"message":"Forbidden: Insufficient role"}
+
+
+	+++ Combination 2 +++:
+	Request sequence: 
+	> GET /users/random HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:8080\r\nAUTHORIZATION TOKEN\r\n\r\n
+	< HTTP/1.1 403 Forbidden\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAcces-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\nAccess-Control-Allow-Headers: Content-Type, Authorization\r\nContent-Type: application/json; charset=utf-8\r\nContent-Length: 42\r\nETag: W/"2a-2HTn7E8jtg7Nrlf1fxTjhPRvceg"\r\nDate: Sat, 10 May 2025 15:19:49 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n{"message":"Forbidden: Insufficient role"}
+
+
+-----------------------------------------------
+Request: Post /items
+Number of blocked dependent requests: 3
+
+	+++ Combination 1 +++:
+	Request sequence: 
+	> POST /items HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:8080\r\nContent-Type: application/json\r\nAUTHORIZATION TOKEN\r\n\r\n{\n    "name":"fuzzstring",\n    "description":"fuzzstring",\n    "img":"https://picsum.photos/id/115/200/200"}\r\n
+	< HTTP/1.1 403 Forbidden\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAcces-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\nAccess-Control-Allow-Headers: Content-Type, Authorization\r\nContent-Type: application/json; charset=utf-8\r\nContent-Length: 42\r\nETag: W/"2a-2HTn7E8jtg7Nrlf1fxTjhPRvceg"\r\nDate: Sat, 10 May 2025 15:19:50 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n{"message":"Forbidden: Insufficient role"}
+
+
+	+++ Combination 2 +++:
+	Request sequence: 
+	> POST /items HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:8080\r\nContent-Type: application/json\r\nAUTHORIZATION TOKEN\r\n\r\n{\n    "name":"fuzzstring",\n    "description":"fuzzstring",\n    "img":"https://picsum.photos/id/115/200/200"}\r\n
+	< HTTP/1.1 403 Forbidden\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAcces-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\nAccess-Control-Allow-Headers: Content-Type, Authorization\r\nContent-Type: application/json; charset=utf-8\r\nContent-Length: 42\r\nETag: W/"2a-2HTn7E8jtg7Nrlf1fxTjhPRvceg"\r\nDate: Sat, 10 May 2025 15:19:50 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n{"message":"Forbidden: Insufficient role"}
+
+
+-----------------------------------------------
+Request: Post /users
+Number of blocked dependent requests: 0
+
+	+++ Combination 1 +++:
+	Request sequence: 
+	> POST /users HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:8080\r\nContent-Type: application/json\r\nAUTHORIZATION TOKEN\r\n\r\n{\n    "username":"iam_new_user3",\n    "password":"123456",\n    "role":"user"}\r\n
+	< HTTP/1.1 403 Forbidden\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAcces-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\nAccess-Control-Allow-Headers: Content-Type, Authorization\r\nContent-Type: application/json; charset=utf-8\r\nContent-Length: 42\r\nETag: W/"2a-2HTn7E8jtg7Nrlf1fxTjhPRvceg"\r\nDate: Sat, 10 May 2025 15:19:43 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n{"message":"Forbidden: Insufficient role"}
+
+
+	+++ Combination 2 +++:
+	Request sequence: 
+	> POST /users HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:8080\r\nContent-Type: application/json\r\nAUTHORIZATION TOKEN\r\n\r\n{\n    "username":"iam_new_user3",\n    "password":"123456",\n    "role":"user"}\r\n
+	< HTTP/1.1 403 Forbidden\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAcces-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\nAccess-Control-Allow-Headers: Content-Type, Authorization\r\nContent-Type: application/json; charset=utf-8\r\nContent-Length: 42\r\nETag: W/"2a-2HTn7E8jtg7Nrlf1fxTjhPRvceg"\r\nDate: Sat, 10 May 2025 15:19:43 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n{"message":"Forbidden: Insufficient role"}
+
+
+-----------------------------------------------
+Request: Get /users
+Number of blocked dependent requests: 0
+
+	+++ Combination 1 +++:
+	Request sequence: 
+	> GET /users HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:8080\r\nAUTHORIZATION TOKEN\r\n\r\n
+	< HTTP/1.1 403 Forbidden\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAcces-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\nAccess-Control-Allow-Headers: Content-Type, Authorization\r\nContent-Type: application/json; charset=utf-8\r\nContent-Length: 42\r\nETag: W/"2a-2HTn7E8jtg7Nrlf1fxTjhPRvceg"\r\nDate: Sat, 10 May 2025 15:19:49 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n{"message":"Forbidden: Insufficient role"}
+
+
+	+++ Combination 2 +++:
+	Request sequence: 
+	> GET /users HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:8080\r\nAUTHORIZATION TOKEN\r\n\r\n
+	< HTTP/1.1 403 Forbidden\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAcces-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\nAccess-Control-Allow-Headers: Content-Type, Authorization\r\nContent-Type: application/json; charset=utf-8\r\nContent-Length: 42\r\nETag: W/"2a-2HTn7E8jtg7Nrlf1fxTjhPRvceg"\r\nDate: Sat, 10 May 2025 15:19:49 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n{"message":"Forbidden: Insufficient role"}
+
+
+-----------------------------------------------
+Request: Get /vipitems
+Number of blocked dependent requests: 0
+
+	+++ Combination 1 +++:
+	Request sequence: 
+	> GET /vipitems HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:8080\r\nAUTHORIZATION TOKEN\r\n\r\n
+	< HTTP/1.1 403 Forbidden\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAcces-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\nAccess-Control-Allow-Headers: Content-Type, Authorization\r\nContent-Type: application/json; charset=utf-8\r\nContent-Length: 42\r\nETag: W/"2a-2HTn7E8jtg7Nrlf1fxTjhPRvceg"\r\nDate: Sat, 10 May 2025 15:19:50 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n{"message":"Forbidden: Insufficient role"}
+
+
+	+++ Combination 2 +++:
+	Request sequence: 
+	> GET /vipitems HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:8080\r\nAUTHORIZATION TOKEN\r\n\r\n
+	< HTTP/1.1 403 Forbidden\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAcces-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\nAccess-Control-Allow-Headers: Content-Type, Authorization\r\nContent-Type: application/json; charset=utf-8\r\nContent-Length: 42\r\nETag: W/"2a-2HTn7E8jtg7Nrlf1fxTjhPRvceg"\r\nDate: Sat, 10 May 2025 15:19:50 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n{"message":"Forbidden: Insufficient role"}
+
+

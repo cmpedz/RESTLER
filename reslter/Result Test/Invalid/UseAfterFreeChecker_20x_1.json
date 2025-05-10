@@ -1,0 +1,28 @@
+{
+    "status_code": "200",
+    "checker_name": "UseAfterFreeChecker",
+    "reproducible": true,
+    "verb": "GET",
+    "endpoint": "/items/{id}",
+    "status_text": "OK",
+    "request_sequence": [
+        {
+            "producer_timing_delay": 0,
+            "max_async_wait_time": 0,
+            "replay_request": "POST /items HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:8081\r\nContent-Type: application/json\r\nAUTHORIZATION TOKEN\r\n\r\n{\n    \"name\":\"fuzzstring\",\n    \"description\":\"fuzzstring\",\n    \"img\":\"https://picsum.photos/id/115/200/200\"}\r\n",
+            "response": "HTTP/1.1 200 OK\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAcces-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\nAccess-Control-Allow-Headers: Content-Type, Authorization\r\nContent-Type: application/json; charset=utf-8\r\nContent-Length: 10\r\nETag: W/\"a-q1FGYT6slAfCpEpLjrHhqPkRjLk\"\r\nDate: Sat, 10 May 2025 07:13:56 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n{\"id\":529}"
+        },
+        {
+            "producer_timing_delay": 0,
+            "max_async_wait_time": 0,
+            "replay_request": "DELETE /items/529 HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:8081\r\nAUTHORIZATION TOKEN\r\n\r\n",
+            "response": "HTTP/1.1 200 OK\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAcces-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\nAccess-Control-Allow-Headers: Content-Type, Authorization\r\nContent-Type: application/json; charset=utf-8\r\nDate: Sat, 10 May 2025 07:13:56 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\nContent-Length: 0\r\n\r\n"
+        },
+        {
+            "producer_timing_delay": 0,
+            "max_async_wait_time": 0,
+            "replay_request": "GET /items/529 HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:8081\r\nAUTHORIZATION TOKEN\r\n\r\n",
+            "response": "HTTP/1.1 200 OK\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAcces-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\nAccess-Control-Allow-Headers: Content-Type, Authorization\r\nContent-Type: application/json; charset=utf-8\r\nContent-Length: 2\r\nETag: W/\"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w\"\r\nDate: Sat, 10 May 2025 07:13:57 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n[]"
+        }
+    ]
+}

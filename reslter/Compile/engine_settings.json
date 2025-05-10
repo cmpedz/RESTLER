@@ -1,0 +1,10 @@
+{
+  "per_resource_settings": {},
+  "max_combinations": 20,
+  "authentication": {
+    "token": {
+      "location": "D:/test_server(test)/Authentication/authentication.txt",
+      "token_refresh_interval": 999999
+    }
+  }
+}

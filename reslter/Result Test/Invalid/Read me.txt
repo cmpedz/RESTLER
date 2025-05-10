@@ -1,0 +1,4 @@
+Sử dụng bộ test này để test một số lỗi sau :
++ UseAfterFreeChecker
++ InvalidDynamicObjectChecker
++ InvalidValueChecker_500 

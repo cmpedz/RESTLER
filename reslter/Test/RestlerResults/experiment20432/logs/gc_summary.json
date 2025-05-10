@@ -1,0 +1,16 @@
+{
+    "delete_stats": {
+        "_vipitems_post_id": {
+            "404": 1,
+            "200": 3
+        },
+        "_users_post_id": {
+            "200": 1,
+            "404": 5
+        },
+        "_items_post_id": {
+            "200": 3,
+            "404": 1
+        }
+    }
+}

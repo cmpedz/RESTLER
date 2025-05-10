@@ -1,0 +1,35 @@
+Restler Information: 0 : Starting task Test...
+    DateTime=2025-05-10T15:34:02.8837008Z
+Restler Information: 0 : Launching 'python.exe --version'
+    DateTime=2025-05-10T15:34:03.8028418Z
+Restler Information: 0 : Process execution terminated in 00:00:00.0266893 with exit code 0x0: 'python.exe --version'
+    DateTime=2025-05-10T15:34:03.8576987Z
+Restler Information: 0 : (14988) python.exe --version exited with code: 0
+    DateTime=2025-05-10T15:34:03.8618343Z
+Restler Information: 0 : Launching 'python.exe -B "D:\RESTLER\restler_bin\restler\../engine/restler.py" --restler_grammar "D:\test_server(test)\grammar.py" --custom_mutations "D:\test_server\Custom_Compile\new_test.json" --set_version 9.3.1    --no_ssl   --settings "D:\test_server(test)\Compile\engine_settings.json"     --include_user_agent --no_tokens_in_logs t --garbage_collection_interval 30 --fuzzing_mode directed-smoke-test'
+    DateTime=2025-05-10T15:34:03.8703498Z
+Restler Information: 0 : Process execution terminated in 00:00:31.9606792 with exit code 0x0: 'python.exe -B "D:\RESTLER\restler_bin\restler\../engine/restler.py" --restler_grammar "D:\test_server(test)\grammar.py" --custom_mutations "D:\test_server\Custom_Compile\new_test.json" --set_version 9.3.1    --no_ssl   --settings "D:\test_server(test)\Compile\engine_settings.json"     --include_user_agent --no_tokens_in_logs t --garbage_collection_interval 30 --fuzzing_mode directed-smoke-test'
+    DateTime=2025-05-10T15:34:35.8313312Z
+Restler Information: 0 : (20432) python.exe -B "D:\RESTLER\restler_bin\restler\../engine/restler.py" --restler_grammar "D:\test_server(test)\grammar.py" --custom_mutations "D:\test_server\Custom_Compile\new_test.json" --set_version 9.3.1    --no_ssl   --settings "D:\test_server(test)\Compile\engine_settings.json"     --include_user_agent --no_tokens_in_logs t --garbage_collection_interval 30 --fuzzing_mode directed-smoke-test exited with code: 0
+    DateTime=2025-05-10T15:34:35.8315374Z
+Restler Information: 0 : Launching 'dotnet "D:\RESTLER\restler_bin\restler\../resultsAnalyzer/Restler.ResultsAnalyzer.dll" analyze "D:\test_server(test)\Test" --output_dir "D:\test_server(test)\Test\ResponseBuckets" --dictionary_file "D:\test_server\Custom_Compile\new_test.json" --max_instances_per_bucket 10'
+    DateTime=2025-05-10T15:34:35.8412136Z
+Restler Information: 0 : Process execution terminated in 00:00:00.4321383 with exit code 0x0: 'dotnet "D:\RESTLER\restler_bin\restler\../resultsAnalyzer/Restler.ResultsAnalyzer.dll" analyze "D:\test_server(test)\Test" --output_dir "D:\test_server(test)\Test\ResponseBuckets" --dictionary_file "D:\test_server\Custom_Compile\new_test.json" --max_instances_per_bucket 10'
+    DateTime=2025-05-10T15:34:36.2734847Z
+Restler Information: 0 : (22188) dotnet "D:\RESTLER\restler_bin\restler\../resultsAnalyzer/Restler.ResultsAnalyzer.dll" analyze "D:\test_server(test)\Test" --output_dir "D:\test_server(test)\Test\ResponseBuckets" --dictionary_file "D:\test_server\Custom_Compile\new_test.json" --max_instances_per_bucket 10 exited with code: 0
+    DateTime=2025-05-10T15:34:36.2737624Z
+Restler Information: 0 : Request coverage (successful / total): 18 / 18
+    DateTime=2025-05-10T15:34:36.3632573Z
+Restler Information: 0 : Attempted requests: 18 / 18
+    DateTime=2025-05-10T15:34:36.3634269Z
+Restler Information: 0 : Bugs were found!
+    DateTime=2025-05-10T15:34:36.3676611Z
+Restler Information: 0 : Bug buckets:
+    DateTime=2025-05-10T15:34:36.3678181Z
+Restler Information: 0 : 
+main_driver_500: 1
+    DateTime=2025-05-10T15:34:36.3685011Z
+Restler Information: 0 : Task Test succeeded.
+    DateTime=2025-05-10T15:34:36.3755137Z
+Restler Information: 0 : Collecting logs...
+    DateTime=2025-05-10T15:34:36.6821316Z

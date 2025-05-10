@@ -1,0 +1,22 @@
+{
+    "status_code": "500",
+    "checker_name": "main_driver",
+    "reproducible": true,
+    "verb": "PUT",
+    "endpoint": "/users/{id}",
+    "status_text": "Internal Server Error",
+    "request_sequence": [
+        {
+            "producer_timing_delay": 0,
+            "max_async_wait_time": 0,
+            "replay_request": "GET /users/random HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:8080\r\nAUTHORIZATION TOKEN\r\n\r\n",
+            "response": "HTTP/1.1 200 OK\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAcces-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\nAccess-Control-Allow-Headers: Content-Type, Authorization\r\nContent-Type: application/json; charset=utf-8\r\nContent-Length: 138\r\nETag: W/\"8a-zSTtwEF1tBnpGKupD/JN8ZuUY+8\"\r\nDate: Sat, 10 May 2025 15:34:16 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n{\"id\":30274,\"username\":\"\u00e0d\u00e1_1IX_1IX\",\"password\":\"$2a$12$Gbe4AzAQpfwu5bYRWhpiD.AZWuEx04Wk0CIXrPynCZ6x57gTGB5pG\",\"role\":\"user\",\"age\":null}"
+        },
+        {
+            "producer_timing_delay": 0,
+            "max_async_wait_time": 0,
+            "replay_request": "PUT /users/30274 HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:8080\r\nContent-Type: application/json\r\nAUTHORIZATION TOKEN\r\n\r\n{\n    \"username\":\"vl13\",\n    \"password\":\"123456\",\n    \"role\":\"admin\"}\r\n",
+            "response": "HTTP/1.1 500 Internal Server Error\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nAcces-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\nAccess-Control-Allow-Headers: Content-Type, Authorization\r\nContent-Type: application/json; charset=utf-8\r\nContent-Length: 83\r\nETag: W/\"53-tbuud/GrFjZuHWHxt8JQhy2gH+o\"\r\nDate: Sat, 10 May 2025 15:34:17 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n{\"message\":\"duplicate key value violates unique constraint \\\"users_username_key\\\"\"}"
+        }
+    ]
+}

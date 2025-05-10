@@ -1,0 +1,12 @@
+{
+  "restler_custom_payload": {
+    "username": ["vl1235"],
+    "username_post" : ["vl245"],
+    "password": ["123456"],
+    "role" : ["admin"],
+    "name" : ["itemPro"],
+    "description" : ["nothing to say"],
+    "img" : [ "666"]
+  }
+ 
+}

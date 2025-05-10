@@ -1,0 +1,484 @@
+[5/10/2025 9:46:28 PM] Generating grammar...
+[5/10/2025 9:46:28 PM] Getting requests...
+found unsupported format: uri
+found unsupported format: uri
+[5/10/2025 9:46:28 PM] Getting dependencies...
+[5/10/2025 9:46:28 PM] Getting path consumers...
+[5/10/2025 9:46:28 PM] Getting query consumers...
+[5/10/2025 9:46:28 PM] Getting header consumers...
+[5/10/2025 9:46:28 PM] Getting body consumers...
+found unsupported format: uri
+found unsupported format: uri
+found unsupported format: uri
+found unsupported format: uri
+[5/10/2025 9:46:28 PM] Getting producers...
+found unsupported format: found unsupported format: uri
+found unsupported format: uri
+found unsupported format: uri
+uri
+found unsupported format: uri
+found unsupported format: uri
+found unsupported format: uri
+found unsupported format: uri
+found unsupported format: uri
+found unsupported format: uri
+[5/10/2025 9:46:28 PM] Done processing producers
+[5/10/2025 9:46:28 PM] Compute dependencies
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/vipitems/{id}"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/register"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/vipitems/{id}"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/register"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/register"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/register"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/vipitems/{id}"
+  xMsPath = None
+  method = Put }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/login"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/vipitems/{id}"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/register"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/vipitems/{id}"
+  xMsPath = None
+  method = Put }[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/login"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/login"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/register"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/login"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/login"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/items"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/items"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/vipitems/{id}"
+  xMsPath = None
+  method = Get }[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/login"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/items"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/items"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] 
+Done dependencies for request { endpoint = "/vipitems/{id}"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/items"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/items"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/items"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/items"
+  xMsPath = None
+  method = Get }
+
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/items"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/vipitems/{id}"
+  xMsPath = None
+  method = Put }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/items"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/items"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/vipitems/{id}"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/items/{id}"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/vipitems/{id}"
+  xMsPath = None
+  method = Put }
+found unsupported format: uri
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/items"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/items/{id}"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/vipitems/{id}"
+  xMsPath = None
+  method = Delete }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/items/{id}"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/items/{id}"
+  xMsPath = None
+  method = Put }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/vipitems/{id}"
+  xMsPath = None
+  method = Delete }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/vipitems/{id}"
+  xMsPath = None
+  method = Delete }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/items/{id}"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/items/{id}"
+  xMsPath = None
+  method = Put }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/users/random"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/vipitems/{id}"
+  xMsPath = None
+  method = Delete }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/items/{id}"
+  xMsPath = None
+  method = Put }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/items/{id}"
+  xMsPath = None
+  method = Delete }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/users/random"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/users/random"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/items/{id}"
+  xMsPath = None
+  method = Put }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/items/{id}"
+  xMsPath = None
+  method = Delete }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/users/random"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/items/{id}"
+  xMsPath = None
+  method = Delete }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/vipitems"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/items/{id}"
+  xMsPath = None
+  method = Delete }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/vipitems"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/vipitems/{id}"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/vipitems"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/vipitems"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/vipitems"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/register"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Post }[[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/users/{id}"
+  xMsPath = None
+  method = Get }[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/vipitems/{id}"
+  xMsPath = None
+  method = Put }
+5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/vipitems"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/users/{id}"
+  xMsPath = None
+  method = Put }
+
+
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/vipitems"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/users/{id}"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/users/{id}"
+  xMsPath = None
+  method = Put }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/vipitems/{id}"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/vipitems"
+  xMsPath = None
+  method = Post }[5/10/2025 9:46:28 PM] 
+Second pass dependencies for request { endpoint = "/users/{id}"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/users/{id}"
+  xMsPath = None
+  method = Delete }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/items/{id}"
+  xMsPath = None
+  method = Get }[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/users/{id}"
+  xMsPath = None
+  method = Put }
+
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/users/{id}"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/vipitems/{id}"
+  xMsPath = None
+  method = Put }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/users/{id}"
+  xMsPath = None
+  method = Delete }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/users/{id}"
+  xMsPath = None
+  method = Put }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/items/{id}"
+  xMsPath = None
+  method = Delete }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/users/random"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/vipitems/{id}"
+  xMsPath = None
+  method = Put }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Get }[[5/10/2025 9:46:28 PM] [5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/users/{id}"
+  xMsPath = None
+  method = Delete }
+
+5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/items/{id}"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/users/random"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/users/random"
+  xMsPath = None
+  method = Get }
+Done dependencies for request { endpoint = "/register"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/users/{id}"
+  xMsPath = None
+  method = Delete }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/users/random"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/vipitems/{id}"
+  xMsPath = None
+  method = Delete }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/vipitems/{id}"
+  xMsPath = None
+  method = Put }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/items/{id}"
+  xMsPath = None
+  method = Delete }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/vipitems/{id}"
+  xMsPath = None
+  method = Delete }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/items/{id}"
+  xMsPath = None
+  method = Put }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/vipitems"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/vipitems/{id}"
+  xMsPath = None
+  method = Delete }
+[[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Post }
+5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/items/{id}"
+  xMsPath = None
+  method = Put }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/vipitems"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/login"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/vipitems/{id}"
+  xMsPath = None
+  method = Delete }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/vipitems"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/login"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/users"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/users/{id}"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/vipitems"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/items"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/users/{id}"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/users/{id}"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/items"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/users/{id}"
+  xMsPath = None
+  method = Get }
+found unsupported format: uri
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/users/{id}"
+  xMsPath = None
+  method = Put }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/users/{id}"
+  xMsPath = None
+  method = Put }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/users/{id}"
+  xMsPath = None
+  method = Put }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/items"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/users/{id}"
+  xMsPath = None
+  method = Delete }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/users/{id}"
+  xMsPath = None
+  method = Put }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/items"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/users/{id}"
+  xMsPath = None
+  method = Delete }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/users/{id}"
+  xMsPath = None
+  method = Delete }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/items/{id}"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/users/{id}"
+  xMsPath = None
+  method = Delete }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/items/{id}"
+  xMsPath = None
+  method = Get }
+found unsupported format: uri
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/items/{id}"
+  xMsPath = None
+  method = Put }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/items/{id}"
+  xMsPath = None
+  method = Put }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/items/{id}"
+  xMsPath = None
+  method = Delete }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/items/{id}"
+  xMsPath = None
+  method = Delete }
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/vipitems"
+  xMsPath = None
+  method = Get }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/vipitems"
+  xMsPath = None
+  method = Get }
+found unsupported format: uri
+[5/10/2025 9:46:28 PM] Second pass dependencies for request { endpoint = "/vipitems"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Done dependencies for request { endpoint = "/vipitems"
+  xMsPath = None
+  method = Post }
+[5/10/2025 9:46:28 PM] Assigning equality constraints...
+found unsupported format: uri
+found unsupported format: uri
+found unsupported format: uri
+found unsupported format: uri
+[5/10/2025 9:46:28 PM] Getting ordering constraints...
+[5/10/2025 9:46:28 PM] Dependency analysis completed.
+[5/10/2025 9:46:28 PM] Generating request primitives...
+found unsupported format: uri
+found unsupported format: uri
+found unsupported format: uri
+found unsupported format: uri
+found unsupported format: uri
+found unsupported format: uri
+found unsupported format: uri
+found unsupported format: uri
+Writing new dictionary to D:\test_server(test)\Compile\dict.json
+[5/10/2025 9:46:28 PM] Generating python grammar...
+[5/10/2025 9:46:28 PM] Get requests
+[5/10/2025 9:46:28 PM] Done get requests
+[5/10/2025 9:46:28 PM] Done generating python grammar.
+Workflow completed.  See D:\test_server(test)\Compile for REST-ler grammar.

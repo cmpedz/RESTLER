@@ -1,0 +1,63 @@
+{
+  "500": {
+    "2c6ec581-dee9-4e1c-82dd-0713200eaa79": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/users/30274",
+            "query": "",
+            "body": "{\n    \"username\":\"vl13\",\n    \"password\":\"123456\",\n    \"role\":\"admin\"}\r\n"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 500,
+            "codeDescription": "Internal Server Error",
+            "content": "{\"message\":\"duplicate key value violates unique constraint \\\"users_username_key\\\"\"}",
+            "isFailure": true,
+            "isBug": true
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/users/30274",
+            "query": "",
+            "body": "{\n    \"username\":\"vl13\",\n    \"password\":\"123456\",\n    \"role\":\"admin\"}\r\n"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 500,
+            "codeDescription": "Internal Server Error",
+            "content": "{\"message\":\"duplicate key value violates unique constraint \\\"users_username_key\\\"\"}",
+            "isFailure": true,
+            "isBug": true
+          }
+        }
+      },
+      {
+        "request": {
+          "RequestData": {
+            "method": "PUT",
+            "path": "/users/30274",
+            "query": "",
+            "body": "{\n    \"username\":\"vl13\",\n    \"password\":\"123456\",\n    \"role\":\"admin\"}\r\n"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 500,
+            "codeDescription": "Internal Server Error",
+            "content": "{\"message\":\"duplicate key value violates unique constraint \\\"users_username_key\\\"\"}",
+            "isFailure": true,
+            "isBug": true
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,499 @@
+Random seed: 12345
+Grammar schema file 'D:\test_server(test)\grammar.json' does not exist.
+Setting fuzzing schemes: directed-smoke-test
+2025-05-10 22:00:00.242: Going to fuzz a set with 18 requests
+2025-05-10 22:00:00.242: Request-0: Value Combinations: 2
+2025-05-10 22:00:00.242: Request-1: Value Combinations: 2
+2025-05-10 22:00:00.242: Request-2: Value Combinations: 2
+2025-05-10 22:00:00.242: Request-3: Value Combinations: 2
+2025-05-10 22:00:00.242: Request-4: Value Combinations: 16
+2025-05-10 22:00:00.242: Request-5: Value Combinations: 2
+2025-05-10 22:00:00.242: Request-6: Value Combinations: 2
+2025-05-10 22:00:00.242: Request-7: Value Combinations: 2
+2025-05-10 22:00:00.242: Request-8: Value Combinations: 16
+2025-05-10 22:00:00.242: Request-9: Value Combinations: 2
+2025-05-10 22:00:00.242: Request-10: Value Combinations: 2
+2025-05-10 22:00:00.242: Request-11: Value Combinations: 2
+2025-05-10 22:00:00.242: Request-12: Value Combinations: 2
+2025-05-10 22:00:00.242: Request-13: Value Combinations: 2
+2025-05-10 22:00:00.242: Request-14: Value Combinations: 2
+2025-05-10 22:00:00.242: Request-15: Value Combinations: 16
+2025-05-10 22:00:00.242: Request-16: Value Combinations: 2
+2025-05-10 22:00:00.242: Request-17: Value Combinations: 2
+2025-05-10 22:00:00.242: Avg. Value Combinations per Request: 4.333333333333333
+2025-05-10 22:00:00.242: Median Value Combinations per Request: 2.0
+2025-05-10 22:00:00.242: Min Value Combinations per Request: 2
+2025-05-10 22:00:00.242: Max Value Combinations per Request: 16
+2025-05-10 22:00:00.242: Total dependencies: 12
+
+2025-05-10 22:00:00.244: Generation: 1 / Sequences Collection Size: 9 
+(After directed-smoke-test Extend)
+
+Rendering request 0 from scratch
+
+2025-05-10 22:00:02.148: Request 0
+2025-05-10 22:00:02.148: Endpoint - /users
+2025-05-10 22:00:02.148: Hex Def - 1f618f842e18eb2f5e460fd10297b7118f7ae878
+2025-05-10 22:00:02.148: Sequence length that satisfies dependencies: 1
+2025-05-10 22:00:02.155: Rendering VALID
+		- restler_static_string: 'POST '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'users'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost:8080\r\n'
+		- restler_static_string: 'Content-Type: '
+		- restler_static_string: 'application/json'
+		- restler_static_string: '\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval', 'token_location']
+		- restler_static_string: '\r\n'
+		- restler_static_string: '{'
+		- restler_static_string: '\n    "username":'
+		- restler_custom_payload: '"iam_new_admin"'
+		- restler_static_string: ',\n    "password":'
+		- restler_custom_payload: '"123456"'
+		- restler_static_string: ',\n    "role":'
+		- restler_custom_payload: '"admin"'
+		- restler_static_string: '}'
+		- restler_static_string: '\r\n'
+
+Rendering request 1 from scratch
+
+2025-05-10 22:00:04.418: Request 1
+2025-05-10 22:00:04.418: Endpoint - /register
+2025-05-10 22:00:04.418: Hex Def - 216e0486b2f0574110147646b4eb9bf4db290b1b
+2025-05-10 22:00:04.418: Sequence length that satisfies dependencies: 1
+2025-05-10 22:00:04.426: Rendering VALID
+		- restler_static_string: 'POST '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'register'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost:8080\r\n'
+		- restler_static_string: 'Content-Type: '
+		- restler_static_string: 'application/json'
+		- restler_static_string: '\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval', 'token_location']
+		- restler_static_string: '\r\n'
+		- restler_static_string: '{'
+		- restler_static_string: '\n    "username":'
+		- restler_custom_payload: '"iam_admin"'
+		- restler_static_string: ',\n    "password":'
+		- restler_custom_payload: '"123456"'
+		- restler_static_string: ',\n    "role":'
+		- restler_custom_payload: '"admin"'
+		- restler_static_string: '}'
+		- restler_static_string: '\r\n'
+
+Rendering request 2 from scratch
+
+2025-05-10 22:00:06.246: Request 2
+2025-05-10 22:00:06.246: Endpoint - /vipitems
+2025-05-10 22:00:06.246: Hex Def - 41158f39983e661193c2183b4dfac453feeb515a
+2025-05-10 22:00:06.246: Sequence length that satisfies dependencies: 1
+2025-05-10 22:00:06.254: Rendering VALID
+		- restler_static_string: 'POST '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'vipitems'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost:8080\r\n'
+		- restler_static_string: 'Content-Type: '
+		- restler_static_string: 'application/json'
+		- restler_static_string: '\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval', 'token_location']
+		- restler_static_string: '\r\n'
+		- restler_static_string: '{'
+		- restler_static_string: '\n    "name":'
+		+ restler_custom_payload: ['"item3"', '"item3_test"']
+		- restler_static_string: ',\n    "description":'
+		+ restler_custom_payload: ['"nothing to say"', '"update informations"']
+		- restler_static_string: ',\n    "img":'
+		+ restler_custom_payload: ['"???"', '"666"']
+		- restler_static_string: '}'
+		- restler_static_string: '\r\n'
+
+Rendering request 3 from scratch
+
+2025-05-10 22:00:08.675: Request 3
+2025-05-10 22:00:08.675: Endpoint - /items
+2025-05-10 22:00:08.675: Hex Def - 710653357a5e6a74efb33e60c61a009c48bee0f4
+2025-05-10 22:00:08.675: Sequence length that satisfies dependencies: 1
+2025-05-10 22:00:08.684: Rendering VALID
+		- restler_static_string: 'GET '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'items'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost:8080\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval', 'token_location']
+		- restler_static_string: '\r\n'
+
+Rendering request 4 from scratch
+
+2025-05-10 22:00:09.319: Request 4
+2025-05-10 22:00:09.319: Endpoint - /users/random
+2025-05-10 22:00:09.319: Hex Def - b37f6b932c8eb19a04d22b4791a3ba63c7e001a5
+2025-05-10 22:00:09.319: Sequence length that satisfies dependencies: 1
+2025-05-10 22:00:09.326: Rendering VALID
+		- restler_static_string: 'GET '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'users'
+		- restler_static_string: '/'
+		- restler_static_string: 'random'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost:8080\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval', 'token_location']
+		- restler_static_string: '\r\n'
+
+Rendering request 5 from scratch
+
+2025-05-10 22:00:09.700: Request 5
+2025-05-10 22:00:09.700: Endpoint - /users
+2025-05-10 22:00:09.700: Hex Def - d007d97507801ce9652dac419a74e1a2e6a7b1ca
+2025-05-10 22:00:09.700: Sequence length that satisfies dependencies: 1
+2025-05-10 22:00:09.707: Rendering VALID
+		- restler_static_string: 'GET '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'users'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost:8080\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval', 'token_location']
+		- restler_static_string: '\r\n'
+
+Rendering request 6 from scratch
+
+2025-05-10 22:00:10.068: Request 6
+2025-05-10 22:00:10.068: Endpoint - /items
+2025-05-10 22:00:10.068: Hex Def - d1d1f7d7e8484214c04eb6eda5d2177eefa0230d
+2025-05-10 22:00:10.068: Sequence length that satisfies dependencies: 1
+2025-05-10 22:00:10.074: Rendering VALID
+		- restler_static_string: 'POST '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'items'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost:8080\r\n'
+		- restler_static_string: 'Content-Type: '
+		- restler_static_string: 'application/json'
+		- restler_static_string: '\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval', 'token_location']
+		- restler_static_string: '\r\n'
+		- restler_static_string: '{'
+		- restler_static_string: '\n    "name":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: ',\n    "description":'
+		- restler_fuzzable_string: '"fuzzstring"'
+		- restler_static_string: ',\n    "img":'
+		- restler_fuzzable_string: '"https://picsum.photos/id/115/200/200"'
+		- restler_static_string: '}'
+		- restler_static_string: '\r\n'
+
+Rendering request 7 from scratch
+
+2025-05-10 22:00:10.688: Request 7
+2025-05-10 22:00:10.688: Endpoint - /vipitems
+2025-05-10 22:00:10.688: Hex Def - fb241cfa51ca484e34a8f567061ca669bfed9c8c
+2025-05-10 22:00:10.688: Sequence length that satisfies dependencies: 1
+2025-05-10 22:00:10.695: Rendering VALID
+		- restler_static_string: 'GET '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'vipitems'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost:8080\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval', 'token_location']
+		- restler_static_string: '\r\n'
+
+Rendering request 8 from scratch
+
+2025-05-10 22:00:11.149: Request 8
+2025-05-10 22:00:11.149: Endpoint - /login
+2025-05-10 22:00:11.149: Hex Def - fec1a4c014ef66dc820f21ce197999778891552f
+2025-05-10 22:00:11.149: Sequence length that satisfies dependencies: 1
+2025-05-10 22:00:11.156: Rendering VALID
+		- restler_static_string: 'POST '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'login'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost:8080\r\n'
+		- restler_static_string: 'Content-Type: '
+		- restler_static_string: 'application/json'
+		- restler_static_string: '\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval', 'token_location']
+		- restler_static_string: '\r\n'
+		- restler_static_string: '{'
+		- restler_static_string: '\n    "username":'
+		- restler_custom_payload: '"iam_admin"'
+		- restler_static_string: ',\n    "password":'
+		- restler_custom_payload: '"123456"'
+		- restler_static_string: '}'
+		- restler_static_string: '\r\n'
+
+2025-05-10 22:00:11.177: Generation: 1 / Sequences Collection Size: 9 
+(After directed-smoke-test Render)
+
+2025-05-10 22:00:11.184: Final Swagger spec coverage: 9 / 18
+2025-05-10 22:00:11.184: Rendered requests: 9 / 18
+2025-05-10 22:00:11.184: Rendered requests with "valid" status codes: 9 / 9
+2025-05-10 22:00:11.184: Num fully valid requests (no resource creation failures): 9
+2025-05-10 22:00:11.184: Num requests not rendered due to invalid sequence re-renders: 0
+2025-05-10 22:00:11.184: Num invalid requests caused by failed resource creations: 0
+2025-05-10 22:00:11.184: Total Creations of Dyn Objects: 3
+2025-05-10 22:00:11.184: Total Requests Sent: {'gc': 0, 'main_driver': 9}
+2025-05-10 22:00:11.184: Bug Buckets: {}
+2025-05-10 22:00:11.193: Generation: 2 / Sequences Collection Size: 9 
+(After directed-smoke-test Extend)
+
+Found a matching prefix of length 1 for request 9 with previous request 4
+	and re-using that VALID prefix (1 rendering combinations)
+
+2025-05-10 22:00:12.298: Request 9
+2025-05-10 22:00:12.298: Endpoint - /users/{id}
+2025-05-10 22:00:12.299: Hex Def - 142d01f9cf50dfe964075e7135d622b1362f722c
+2025-05-10 22:00:12.299: Sequence length that satisfies dependencies: 2
+2025-05-10 22:00:12.307: Rendering VALID
+		- restler_static_string: 'DELETE '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'users'
+		- restler_static_string: '/'
+		- restler_static_string: '_READER_DELIM_users_post_id_READER_DELIM'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost:8080\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval', 'token_location']
+		- restler_static_string: '\r\n'
+
+Found a matching prefix of length 1 for request 10 with previous request 4
+	and re-using that VALID prefix (1 rendering combinations)
+
+2025-05-10 22:00:18.658: Request 10
+2025-05-10 22:00:18.658: Endpoint - /users/{id}
+2025-05-10 22:00:18.658: Hex Def - 3d1cf5fad706aea1edba0bcad613417927eda7ab
+2025-05-10 22:00:18.658: Sequence length that satisfies dependencies: 2
+2025-05-10 22:00:18.668: Rendering INVALID
+		- restler_static_string: 'PUT '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'users'
+		- restler_static_string: '/'
+		- restler_static_string: '_READER_DELIM_users_post_id_READER_DELIM'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost:8080\r\n'
+		- restler_static_string: 'Content-Type: '
+		- restler_static_string: 'application/json'
+		- restler_static_string: '\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval', 'token_location']
+		- restler_static_string: '\r\n'
+		- restler_static_string: '{'
+		- restler_static_string: '\n    "username":'
+		- restler_custom_payload: '"iam_admin"'
+		- restler_static_string: ',\n    "password":'
+		- restler_custom_payload: '"123456"'
+		- restler_static_string: ',\n    "role":'
+		- restler_custom_payload: '"admin"'
+		- restler_static_string: '}'
+		- restler_static_string: '\r\n'
+
+Found a matching prefix of length 1 for request 11 with previous request 2
+	and re-using that VALID prefix (1 rendering combinations)
+
+2025-05-10 22:00:19.331: Request 11
+2025-05-10 22:00:19.331: Endpoint - /vipitems/{id}
+2025-05-10 22:00:19.331: Hex Def - 42f7d5853608c5aece2c1d890c373ff76b2412dd
+2025-05-10 22:00:19.331: Sequence length that satisfies dependencies: 2
+2025-05-10 22:00:19.337: Rendering VALID
+		- restler_static_string: 'GET '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'vipitems'
+		- restler_static_string: '/'
+		- restler_static_string: '_READER_DELIM_vipitems_post_id_READER_DELIM'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost:8080\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval', 'token_location']
+		- restler_static_string: '\r\n'
+
+Found a matching prefix of length 1 for request 12 with previous request 6
+	and re-using that VALID prefix (1 rendering combinations)
+
+2025-05-10 22:00:20.261: Request 12
+2025-05-10 22:00:20.261: Endpoint - /items/{id}
+2025-05-10 22:00:20.261: Hex Def - 7744afc80171244afa1db3e046637f642c358bcf
+2025-05-10 22:00:20.261: Sequence length that satisfies dependencies: 2
+2025-05-10 22:00:20.270: Rendering VALID
+		- restler_static_string: 'DELETE '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'items'
+		- restler_static_string: '/'
+		- restler_static_string: '_READER_DELIM_items_post_id_READER_DELIM'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost:8080\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval', 'token_location']
+		- restler_static_string: '\r\n'
+
+Found a matching prefix of length 1 for request 13 with previous request 2
+	and re-using that VALID prefix (1 rendering combinations)
+
+2025-05-10 22:00:21.234: Request 13
+2025-05-10 22:00:21.235: Endpoint - /vipitems/{id}
+2025-05-10 22:00:21.235: Hex Def - 7da4dd6fd813f14ea4089f7a87fb6c6768096cfa
+2025-05-10 22:00:21.235: Sequence length that satisfies dependencies: 2
+2025-05-10 22:00:21.242: Rendering VALID
+		- restler_static_string: 'PUT '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'vipitems'
+		- restler_static_string: '/'
+		- restler_static_string: '_READER_DELIM_vipitems_post_id_READER_DELIM'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost:8080\r\n'
+		- restler_static_string: 'Content-Type: '
+		- restler_static_string: 'application/json'
+		- restler_static_string: '\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval', 'token_location']
+		- restler_static_string: '\r\n'
+		- restler_static_string: '{'
+		- restler_static_string: '\n    "name":'
+		+ restler_custom_payload: ['"item3"', '"item3_test"']
+		- restler_static_string: ',\n    "description":'
+		+ restler_custom_payload: ['"nothing to say"', '"update informations"']
+		- restler_static_string: ',\n    "img":'
+		+ restler_custom_payload: ['"???"', '"666"']
+		- restler_static_string: '}'
+		- restler_static_string: '\r\n'
+
+Found a matching prefix of length 1 for request 14 with previous request 6
+	and re-using that VALID prefix (1 rendering combinations)
+
+2025-05-10 22:00:21.928: Request 14
+2025-05-10 22:00:21.928: Endpoint - /items/{id}
+2025-05-10 22:00:21.928: Hex Def - a8320019545b3f921d292871f1de875b7e2459a5
+2025-05-10 22:00:21.928: Sequence length that satisfies dependencies: 2
+2025-05-10 22:00:21.938: Rendering VALID
+		- restler_static_string: 'GET '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'items'
+		- restler_static_string: '/'
+		- restler_static_string: '_READER_DELIM_items_post_id_READER_DELIM'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost:8080\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval', 'token_location']
+		- restler_static_string: '\r\n'
+
+Found a matching prefix of length 1 for request 15 with previous request 4
+	and re-using that VALID prefix (1 rendering combinations)
+
+2025-05-10 22:00:24.353: Request 15
+2025-05-10 22:00:24.353: Endpoint - /users/{id}
+2025-05-10 22:00:24.353: Hex Def - c3b1a1905e73e8bd3b148c6f7cea114813cc48b9
+2025-05-10 22:00:24.353: Sequence length that satisfies dependencies: 2
+2025-05-10 22:00:24.361: Rendering VALID
+		- restler_static_string: 'GET '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'users'
+		- restler_static_string: '/'
+		- restler_static_string: '_READER_DELIM_users_post_id_READER_DELIM'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost:8080\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval', 'token_location']
+		- restler_static_string: '\r\n'
+
+Found a matching prefix of length 1 for request 16 with previous request 2
+	and re-using that VALID prefix (1 rendering combinations)
+
+2025-05-10 22:00:25.247: Request 16
+2025-05-10 22:00:25.247: Endpoint - /vipitems/{id}
+2025-05-10 22:00:25.247: Hex Def - e340960113b7455789a29d81f94b35ba5c4ef4d4
+2025-05-10 22:00:25.247: Sequence length that satisfies dependencies: 2
+2025-05-10 22:00:25.254: Rendering VALID
+		- restler_static_string: 'DELETE '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'vipitems'
+		- restler_static_string: '/'
+		- restler_static_string: '_READER_DELIM_vipitems_post_id_READER_DELIM'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost:8080\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval', 'token_location']
+		- restler_static_string: '\r\n'
+
+Found a matching prefix of length 1 for request 17 with previous request 6
+	and re-using that VALID prefix (1 rendering combinations)
+
+2025-05-10 22:00:26.167: Request 17
+2025-05-10 22:00:26.167: Endpoint - /items/{id}
+2025-05-10 22:00:26.167: Hex Def - edaf6022e3439dd3f64529a9010c6af44e3e443f
+2025-05-10 22:00:26.167: Sequence length that satisfies dependencies: 2
+2025-05-10 22:00:26.174: Rendering VALID
+		- restler_static_string: 'PUT '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'items'
+		- restler_static_string: '/'
+		- restler_static_string: '_READER_DELIM_items_post_id_READER_DELIM'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: localhost:8080\r\n'
+		- restler_static_string: 'Content-Type: '
+		- restler_static_string: 'application/json'
+		- restler_static_string: '\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval', 'token_location']
+		- restler_static_string: '\r\n'
+		- restler_static_string: '{'
+		- restler_static_string: '\n    "name":'
+		+ restler_custom_payload: ['"item3"', '"item3_test"']
+		- restler_static_string: ',\n    "description":'
+		+ restler_custom_payload: ['"nothing to say"', '"update informations"']
+		- restler_static_string: ',\n    "img":'
+		+ restler_custom_payload: ['"???"', '"666"']
+		- restler_static_string: '}'
+		- restler_static_string: '\r\n'
+
+2025-05-10 22:00:26.195: Generation: 2 / Sequences Collection Size: 8 
+(After directed-smoke-test Render)
+
+2025-05-10 22:00:26.203: Final Swagger spec coverage: 18 / 18
+2025-05-10 22:00:26.203: Rendered requests: 18 / 18
+2025-05-10 22:00:26.203: Rendered requests with "valid" status codes: 18 / 18
+2025-05-10 22:00:26.203: Num fully valid requests (no resource creation failures): 18
+2025-05-10 22:00:26.203: Num requests not rendered due to invalid sequence re-renders: 0
+2025-05-10 22:00:26.203: Num invalid requests caused by failed resource creations: 0
+2025-05-10 22:00:26.203: Total Creations of Dyn Objects: 14
+2025-05-10 22:00:26.203: Total Requests Sent: {'gc': 0, 'main_driver': 29}
+2025-05-10 22:00:26.203: Bug Buckets: {'main_driver_500': 1}
+
+Testing completed -- below are the final stats:
+
+2025-05-10 22:00:31.969: Final Swagger spec coverage: 18 / 18
+2025-05-10 22:00:31.969: Rendered requests: 18 / 18
+2025-05-10 22:00:31.969: Rendered requests with "valid" status codes: 18 / 18
+2025-05-10 22:00:31.969: Num fully valid requests (no resource creation failures): 18
+2025-05-10 22:00:31.969: Num requests not rendered due to invalid sequence re-renders: 0
+2025-05-10 22:00:31.969: Num invalid requests caused by failed resource creations: 0
+2025-05-10 22:00:31.969: Total Creations of Dyn Objects: 14
+2025-05-10 22:00:31.969: Total Requests Sent: {'gc': 14, 'main_driver': 29}
+2025-05-10 22:00:31.969: Bug Buckets: {'main_driver_500': 1}

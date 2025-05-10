@@ -1,0 +1,550 @@
+{
+  "403": {
+    "16ae2d9a-fb6b-4dea-b581-c0d2fafef9da": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/items",
+            "query": "",
+            "body": "{\n    \"name\":\"fuzzstring\",\n    \"description\":\"fuzzstring\",\n    \"img\":\"https://picsum.photos/id/115/200/200\"}\r\n"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 403,
+            "codeDescription": "Forbidden",
+            "content": "{\"message\":\"Forbidden: Insufficient role\"}",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "1d402907-5761-4f1e-9e7f-6b1c3b2c69f9": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/vipitems",
+            "query": "",
+            "body": "{\n    \"name\":\"item3_test\",\n    \"description\":\"update informations\",\n    \"img\":\"???\"}\r\n"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 403,
+            "codeDescription": "Forbidden",
+            "content": "{\"message\":\"Forbidden: Insufficient role\"}",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "1ee5784d-4924-4a39-a397-7db95032c7d8": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/vipitems",
+            "query": "",
+            "body": "{\n    \"name\":\"item3_test\",\n    \"description\":\"nothing to say\",\n    \"img\":\"???\"}\r\n"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 403,
+            "codeDescription": "Forbidden",
+            "content": "{\"message\":\"Forbidden: Insufficient role\"}",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "3048b14e-36fa-4f05-b79f-935bdea6d801": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/vipitems",
+            "query": "",
+            "body": "{\n    \"name\":\"item3\",\n    \"description\":\"update informations\",\n    \"img\":\"666\"}\r\n"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 403,
+            "codeDescription": "Forbidden",
+            "content": "{\"message\":\"Forbidden: Insufficient role\"}",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "3070db21-f00a-474b-9b0f-7d52a2ee49af": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/users",
+            "query": "",
+            "body": "{\n    \"username\":\"iam_new_user3\",\n    \"password\":\"123456\",\n    \"role\":\"user\"}\r\n"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 403,
+            "codeDescription": "Forbidden",
+            "content": "{\"message\":\"Forbidden: Insufficient role\"}",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "4ddf8885-19a6-443e-a8d7-7085cfbf2bbb": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/vipitems",
+            "query": "",
+            "body": "{\n    \"name\":\"item3_test\",\n    \"description\":\"nothing to say\",\n    \"img\":\"???\"}\r\n"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 403,
+            "codeDescription": "Forbidden",
+            "content": "{\"message\":\"Forbidden: Insufficient role\"}",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "55e3630e-6fb9-4554-a3c7-d19f123a1dcc": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/vipitems",
+            "query": "",
+            "body": "{\n    \"name\":\"item3_test\",\n    \"description\":\"update informations\",\n    \"img\":\"???\"}\r\n"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 403,
+            "codeDescription": "Forbidden",
+            "content": "{\"message\":\"Forbidden: Insufficient role\"}",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "6268cd90-3a70-4b64-ab16-a0841b830b7e": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/vipitems",
+            "query": "",
+            "body": "{\n    \"name\":\"item3_test\",\n    \"description\":\"nothing to say\",\n    \"img\":\"666\"}\r\n"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 403,
+            "codeDescription": "Forbidden",
+            "content": "{\"message\":\"Forbidden: Insufficient role\"}",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "6cc51548-31d4-4955-97f2-4cc4c2b32d12": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/vipitems",
+            "query": "",
+            "body": "{\n    \"name\":\"item3\",\n    \"description\":\"update informations\",\n    \"img\":\"???\"}\r\n"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 403,
+            "codeDescription": "Forbidden",
+            "content": "{\"message\":\"Forbidden: Insufficient role\"}",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "6df026c9-0d96-48d6-88c0-f45abcc27d48": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "GET",
+            "path": "/users/random",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 403,
+            "codeDescription": "Forbidden",
+            "content": "{\"message\":\"Forbidden: Insufficient role\"}",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "6e80ce55-8154-4631-8e4a-3b175655641b": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "GET",
+            "path": "/users",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 403,
+            "codeDescription": "Forbidden",
+            "content": "{\"message\":\"Forbidden: Insufficient role\"}",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "749127e1-659a-49ad-8695-e55f5175304b": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/vipitems",
+            "query": "",
+            "body": "{\n    \"name\":\"item3\",\n    \"description\":\"nothing to say\",\n    \"img\":\"666\"}\r\n"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 403,
+            "codeDescription": "Forbidden",
+            "content": "{\"message\":\"Forbidden: Insufficient role\"}",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "7605daef-401b-4b65-9981-58231241aa95": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "GET",
+            "path": "/vipitems",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 403,
+            "codeDescription": "Forbidden",
+            "content": "{\"message\":\"Forbidden: Insufficient role\"}",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "7b6974a0-3b57-425c-8b49-8651e649a7d5": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/vipitems",
+            "query": "",
+            "body": "{\n    \"name\":\"item3\",\n    \"description\":\"nothing to say\",\n    \"img\":\"???\"}\r\n"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 403,
+            "codeDescription": "Forbidden",
+            "content": "{\"message\":\"Forbidden: Insufficient role\"}",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "7c844368-0d00-46ac-9c6b-c5002043b3d8": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/vipitems",
+            "query": "",
+            "body": "{\n    \"name\":\"item3\",\n    \"description\":\"nothing to say\",\n    \"img\":\"???\"}\r\n"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 403,
+            "codeDescription": "Forbidden",
+            "content": "{\"message\":\"Forbidden: Insufficient role\"}",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "83f28003-002a-4957-98a9-5b07ee3562fc": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/vipitems",
+            "query": "",
+            "body": "{\n    \"name\":\"item3\",\n    \"description\":\"update informations\",\n    \"img\":\"???\"}\r\n"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 403,
+            "codeDescription": "Forbidden",
+            "content": "{\"message\":\"Forbidden: Insufficient role\"}",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "93309518-1b39-4376-82e1-a34efa9b6a55": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "GET",
+            "path": "/vipitems",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 403,
+            "codeDescription": "Forbidden",
+            "content": "{\"message\":\"Forbidden: Insufficient role\"}",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "9d34e739-713c-4c63-a516-0f1475ad0dd3": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/vipitems",
+            "query": "",
+            "body": "{\n    \"name\":\"item3\",\n    \"description\":\"update informations\",\n    \"img\":\"666\"}\r\n"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 403,
+            "codeDescription": "Forbidden",
+            "content": "{\"message\":\"Forbidden: Insufficient role\"}",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "9d763452-3fec-4ddd-a377-5a6b2bd2216e": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/vipitems",
+            "query": "",
+            "body": "{\n    \"name\":\"item3_test\",\n    \"description\":\"update informations\",\n    \"img\":\"666\"}\r\n"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 403,
+            "codeDescription": "Forbidden",
+            "content": "{\"message\":\"Forbidden: Insufficient role\"}",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "a18bf51b-8cac-408d-8321-0845e981eb3d": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "GET",
+            "path": "/users",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 403,
+            "codeDescription": "Forbidden",
+            "content": "{\"message\":\"Forbidden: Insufficient role\"}",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "bb9f60c8-a008-4511-9632-536734703b7b": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/items",
+            "query": "",
+            "body": "{\n    \"name\":\"fuzzstring\",\n    \"description\":\"fuzzstring\",\n    \"img\":\"https://picsum.photos/id/115/200/200\"}\r\n"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 403,
+            "codeDescription": "Forbidden",
+            "content": "{\"message\":\"Forbidden: Insufficient role\"}",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "d25dc342-eab1-4c5e-925f-c6a0103d3492": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/vipitems",
+            "query": "",
+            "body": "{\n    \"name\":\"item3\",\n    \"description\":\"nothing to say\",\n    \"img\":\"666\"}\r\n"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 403,
+            "codeDescription": "Forbidden",
+            "content": "{\"message\":\"Forbidden: Insufficient role\"}",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "e2980f4d-9cea-4d94-acbf-e1b1d6661a6a": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "GET",
+            "path": "/users/random",
+            "query": "",
+            "body": ""
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 403,
+            "codeDescription": "Forbidden",
+            "content": "{\"message\":\"Forbidden: Insufficient role\"}",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "ea69e1ce-822b-4483-a8b3-2ade49515db7": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/users",
+            "query": "",
+            "body": "{\n    \"username\":\"iam_new_user3\",\n    \"password\":\"123456\",\n    \"role\":\"user\"}\r\n"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 403,
+            "codeDescription": "Forbidden",
+            "content": "{\"message\":\"Forbidden: Insufficient role\"}",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "f43f0554-6a8e-40a1-a2ee-36f90dcfe602": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/vipitems",
+            "query": "",
+            "body": "{\n    \"name\":\"item3_test\",\n    \"description\":\"update informations\",\n    \"img\":\"666\"}\r\n"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 403,
+            "codeDescription": "Forbidden",
+            "content": "{\"message\":\"Forbidden: Insufficient role\"}",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ],
+    "f8bd3fda-a843-49c1-b3eb-4ef5bcbbbae2": [
+      {
+        "request": {
+          "RequestData": {
+            "method": "POST",
+            "path": "/vipitems",
+            "query": "",
+            "body": "{\n    \"name\":\"item3_test\",\n    \"description\":\"nothing to say\",\n    \"img\":\"666\"}\r\n"
+          }
+        },
+        "response": {
+          "ResponseData": {
+            "code": 403,
+            "codeDescription": "Forbidden",
+            "content": "{\"message\":\"Forbidden: Insufficient role\"}",
+            "isFailure": true,
+            "isBug": false
+          }
+        }
+      }
+    ]
+  }
+}

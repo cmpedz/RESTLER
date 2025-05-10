@@ -1,0 +1,8 @@
+main_driver_500: 1
+Total Buckets: 1
+-------------
+main_driver_500 - Bug was reproduced - main_driver_500_1.replay.txt
+Hash: main_driver_500_29f5aa97e54f6bce201a28ac4aaa06313f6574e3
+GET /users/random HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:8080\r\nauthentication_token_tag\r\n
+PUT /users/_READER_DELIM_users_post_id_READER_DELIM HTTP/1.1\r\nAccept: application/json\r\nHost: localhost:8080\r\nContent-Type: application/json\r\nauthentication_token_tag\r\n{\n    "username":username,\n    "password":password,\n    "role":role}\r\n
+--------------------------------------------------------------------------------
